@@ -37,20 +37,13 @@ export default {
 }
 
 .position {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    display: grid; 
+    grid-column: 2/span 2;
+    grid-row: 2/span 2;
 
 }
 
-.ribbon-grid {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
+ 
 
 .v-sheet.v-card:not(.v-sheet--outlined) {
     box-shadow: 0px 1px 70px 24px rgba(2, 0, 0, 0.2), 0px 2px 3px 0px rgba(0, 0, 0, -15.86), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
