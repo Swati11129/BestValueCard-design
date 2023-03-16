@@ -9,7 +9,7 @@
 
             <v-col>
                 <v-card class="card-position">
-                    <div class="ribbon-1 left ">Rotated Ribbon
+                    <div class="ribbon-1 left  ">BEST VALUE
                     </div>
                 </v-card>
             </v-col>
@@ -75,5 +75,7 @@ export default {
     width: 133px;
     height: 48px;
     font-size: larger;
+    font-family:sans-serif;
+    font-weight: bold;
 }
 </style>
