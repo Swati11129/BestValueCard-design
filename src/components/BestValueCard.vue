@@ -3,7 +3,7 @@
     <v-container >
             <v-card :elevation="2" class="card-position position rounded-xl " >
                 <!-- <div class="ribbon ribbon-top-left"><span>BEST VALUE</span></div> -->
-                <div class="stack-top left" style="--d:12px;--w:200px; --c:skyblue;">1Month</div>
+                <div class="stack-top left" style="--d:12px;--w:200px; --c:skyblue;">BEST VALUE</div>
             </v-card>
     </v-container>
 </v-app>
@@ -28,13 +28,16 @@ export default {
     grid-template-columns: 2fr 1.2fr 1.2fr 2fr;
     grid-template-rows: 1.5fr 4fr 4fr 1.5fr;
     margin:auto;
+    
 }
+
 .card-position {
     grid-column: 2/span 2;
     grid-row: 2/span 2;
     height:100%;
     width: 100%;
     background-color:#FEFEFE;
+
 }
 
 .stack-top {
@@ -56,6 +59,8 @@ export default {
   background:
     linear-gradient(rgba(0,0,0,0.6) 0 0) bottom/100% var(--d) no-repeat
     var(--c);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 550;
   clip-path:polygon(0 100%,0 calc(100% - var(--d)),50% calc(100% - var(--d) - var(--w)/2),100% calc(100% - var(--d)),100% 100%,calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)))
 }
 
