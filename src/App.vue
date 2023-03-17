@@ -1,15 +1,15 @@
 <template>
-<v-app>
+<v-app style="background-color:#E8E8E8;">
     <v-container theme="light" style="
     height: 100vh;
     display: grid;
     grid-template-columns: 2fr 1.2fr 1.2fr 2fr;
     grid-template-rows: 1.5fr 4fr 4fr 1.5fr;
-    
+    margin:auto;
     ">
        
 
-            <v-card class="card-position position " style="background-color:red;">
+            <v-card :elevation="2" class="card-position position " style="background-color:#FEFEFE;">
                 <div class="ribbon ribbon-top-left"><span>BEST VALUE</span></div>
             </v-card>
 
