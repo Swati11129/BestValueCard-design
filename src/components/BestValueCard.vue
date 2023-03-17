@@ -1,7 +1,7 @@
 <template>
 <v-app style="background-color:#E8E8E8;">
     <v-container >
-            <v-card :elevation="2" class="card-position position " >
+            <v-card :elevation="2" class="card-position position rounded-xl " >
                 <div class="ribbon ribbon-top-left"><span>BEST VALUE</span></div>
             </v-card>
     </v-container>
@@ -35,15 +35,6 @@ export default {
     width: 100%;
     background-color:#FEFEFE;
 }
-
-/*
-.position {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80%
-}
-*/
 .ribbon {
     width: 150px;
     height: 150px;
